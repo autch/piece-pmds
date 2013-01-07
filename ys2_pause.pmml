@@ -1,0 +1,24 @@
+#Title [Ys II] PAUSE
+#Title2 (c) Falcom, arr: Autch
+
+!f @1 V110
+!p @0 V110
+
+A T200
+
+A !f l16 o5
+B !f l16 o5 D2
+C !f l16 o5 D-2
+D !p l16 o6 D4
+E !p l16 o6 D-4
+F !p l16 o5
+
+A bf+gab
+B r32 (20
+BC c8r8g
+
+E r32
+DE f+def+g32(20g(20g(20g32
+
+F r32 (20
+F af+gab32(20b(b20(20b32

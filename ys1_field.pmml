@@ -1,0 +1,79 @@
+#Title [Ys] First step towards wars
+#Title2 (c) Falcom, arr: Autch
+
+!!bg @6  V125 ?o4c   ; bass drum
+!!Sg @8  V115 ?o4c   ; snare drum 1
+!!sg @7  V120 ?o5c   ; snare drum 2
+!!og @9  V100 ?o4c   ; open H.H.
+!!hg @10 V120 ?o5c   ; closeH.H.
+!!cg @11 V120 ?o4c   ; crush cymbal
+!!tg @13 V120 ?o4c   ; synth tom (hi)
+!!ug @14 V120 ?o4c   ; synth tom (mid)
+!!vg @15 V120 ?o4c   ; synth tom (low)
+!!Cg @16 V127 ?o4c   ; clap
+!!Hg @10 ?o5c
+
+!f Y8,140,80,80 E250,70,40,80
+!s Y8,140,80,80 E255,200,110,0
+!b E255,110,93,120
+
+A T135
+
+A @1 o3 V110 l4 D-8  !f ; FM
+B @1 o3 V100 l4 D8 !f ; FM
+C @1 o2 V110 l16 D0 !b ; FM
+D @0 o4 V110 l4 D-4  !s q2 ; SSG
+E @0 o4 V90  l4 D4 !s q2 ; SSG
+; F @0 o3 V100 l4     ; SSG
+
+;ABCDE (50
+
+F =1
+
+AB o4 l4 L
+AB    d2&d4 d16e16f16g16  a2g4f16e8.  f16e16d4.&d4d16e16f16g16  a2g4f16e8.  f8d16>d16&d2d4
+A  o5 e1&e1
+B  o5 c+1&c+1
+AB    d2&d4 d16e16f16g16  a2g4f16e8.  f16e16d4.&d4d16e16f16g16  a2g4f16e8.  d1  e2<a4>e4
+A  o5 d1.
+B  o4 a1.
+AB o5 f8g8a16>c8.
+AB o6 d2.<a+8>c8 d2f2 e4.c4d8<a4&a1  a+2.g8a8  a+2>c4d4 c4.<f4.g8  a1&a8>
+AB    d2.<a+8>c8 d2f2 e4.c4d8<a2.>g4a4a+2.g8a8  a+2a+8a8a8f8  g4.c2  c+1&c+8
+AB o5 l16 d<af>d<afdf>d<af>d<afdf> d<af>d<afdf>d<af>d<afdf>
+A  o5 d16r8d2.&d16 c+16r8c+2.&c+16 a1
+B  o4 f16r8f2.&f16 e16r8e2.&e16&e1
+
+
+C l16 L
+C o2 [ drdddrdddrdddrdd  frfffrffgrgggrgg  drdddrdddrdddrdd frfffrffgrgggrgg 
+C      a+ra+a+a+ra+a+a+ra+a+a+ra+a+ :  araaaraaaraaaraa  araaaraaaraaaraa ]2
+C    araaaraaaraaagec  drdrcd8r<<dd>>frec8r  drdrcd8r<<dd>>ddffaa
+C    a+ra+a+a+ra+a+a+ra+a+a+ra+a+  a+ra+a+a+ra+a+a+ra+a+a+ra+a+
+C    araaaraaaraaaraa  araaaraaaraaaraa  grgggrgggrgggrgg  grgggrgggrgggrgg
+C    frfffrfffrfffrfg  araaaraaaraaaraa  a+ra+a+a+ra+a+a+ra+a+a+ra+a+
+C    a+ra+a+a+ra+a+a+ra+a+a+ra+a+  araaaraaaraaaraa  araaaraaaraaaraa
+C    grgggrgggrgggrgg  d+rd+d+d+rd+d+d+rd+d+d+rd+d+  crcccrcccrcccrcc 
+C  < araaaraaaraaara>c  drdrcd8r<<dd>>gra>c8r< drdrcd8r<<dd>>gra>c8r<
+C  < a+r8a+2.&a+  ar8a8. ararararararararararara > c8.
+
+E r16
+DE l4 o4 L
+DE a16d8a2.&a16  >c2<bg  a16d8a2.&a16  >c2<bg a+16f16d16f16&f2g
+DE a8e16a16&a4>c+8<a16>c+16&c+4  e8c+16e16&e4a8e16a16&a4 <
+DE a16d8a2.&a16  >c2<bg  a16d8a2.&a16  >c2<bg 
+DE f2a+>d  c2&c8<a8e16c8.  d2f8g8a16>c8.  d2&d8e8f16a8.<
+DE o4 a4.f4.d2f4a+4>d4 l8 <a>cea4ec4  <a>cea4ec<a  g4d8g4.a+8>c8
+DE d2g2  fc<a>fc<a>fc ec+<a>ec+<a>ec+ <a+4.f4.d2f4a+4>d4 
+DE <a>cea4ec4 <a>cea4ec<a g4.>g2&g8  <g4.>g4.f8d8  e4.g2a4 >efegfef<
+DE o4 d2f8g8a16>c8&c16< d2f8g8a16>c8&c16< a+4.>dfa+>df<< a4.>dfa+>de<
+DE    l16 aec+<a>aec+<a>aec+<a>aec+<a16
+
+F L l16 
+F [!hg!hg!hg!hg!sg!hg!hg!hg]13 !sg!hg!hg!hg!sg!sg!sg!sg
+F [!hg!hg!hg!hg!sg!hg!hg!hg]12 !sg!hg!hg!hg
+F [!sg!sg!sg!sg:!hg!hg!hg!hg]3 !hg!sg!tg8!ug8!vg8
+F [!hg!hg!hg!hg!sg!hg!hg!hg]32
+F [!hg!hg!hg!hg!sg!sg!sg!sg]3 !hg!hg!tg8!ug8!vg8
+F !bg8.!bg8. !hg8 !sg4!sg4
+F !bg8.!bg8. (20 [!Hg8!Hg8!Hg8 )5 ]4 !hg8

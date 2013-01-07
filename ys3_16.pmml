@@ -1,0 +1,100 @@
+#Title [Wanderers from Ys] バレスタイン城
+#Title2 (c) Falcom, arr: Autch
+
+!!bg @6  V125 ?o4c   ; bass drum
+!!sg @8  V125 ?o4c   ; snare drum 1
+!!Ag @7  V125 ?o5c   ; snare drum 2 (hi)
+!!Ng @7  V125 ?o4a   ; snare drum 2 (mi)
+!!Sg @7  V125 ?o4c   ; snare drum 2
+!!og @9  V100 ?o4c   ; open H.H.
+!!hg @10 V120 ?o5c   ; closeH.H.
+!!cg @11 V125 ?o4c   ; crush cymbal
+!!tg @13 V125 ?o4c   ; synth tom (hi)
+!!ug @14 V125 ?o4c   ; synth tom (mid)
+!!vg @15 V125 ?o4c   ; synth tom (low)
+!!Cg @16 V127 ?o4c   ; clap
+
+F =1
+
+A T110
+
+!fA @1 E255,60,80,20 Y8,140,80,120 ; FM A
+!fB @3 E240,100,120,20 Y8,140,80,120 ; FM B
+!fC @0 E255,140,40,220 ; FM Bass initial
+!fD @4 E255,140,40,220 )10 ; FM Bass A
+!fE @0 E255,140,40,220 (10 ; FM Bass B
+
+A V110 D8 q0 l16 o3 !fA
+B V100 D-8 q0 l16 o4 !fA
+C V110 D2 q4 l16 o2 !fC
+D @0 V70 D4 q0 l16 o4 Y8,140,80,80
+E @0 V60 D-4 q0 l16 o4 Y8,140,80,80
+F q0 l16
+
+;ABCE (40
+
+A _12 ede<a8.&{af+}8>  ede<a8b>cd  e4d4c4<b4 _0
+B c<a>c<e8.&{ec+}8  >c<a>c<e8eaa  b4b4g4d4
+C aa>!fD a !fE <a>!fD e !fE c<aeaa>cr!fD ea !fE <ar 
+C ee>!fD e !fE <e>!fD e !fE <bgde>!fD e !fE <ee>!fD e !fE <ed>!fD d !fE <
+DE agae4&eagae8&ea8  b4g2d4
+F [ !hg!hg!Ag!hg!hg!Ag!hg!hg!Ag!hg!hg!Ag!hg!hg!Ag!hg ]2
+
+A [ l16 q0 o2
+A a4ab>ce8.decd<b>c  <g4gb>dg8efdecd<b  a4ab>ce8.decd<b>c
+A d8ef8gfge4&e16efg  a4ab>cd<b4g8b8  >d8c8<b8>c8<a4.g8  f4&fdefa4&afga
+A g+4.ab>e4. !fB
+A [ cd  e4&edcd<a8a8b8>cd  e4&edcd<a8a8b8>cd  e4&edcd<a8a8b8g8 : >d4.&dc32<b32>c4&c<b> ]2
+A <a4.&a&{a>a}8.&a4. !fA
+A [ ab>ce8dc<baebe>c<eae  >d<e>c<ebe>c<ebed+ebe>d<b  aebe>c<eaebegeae>c<f  bed+e>c<ed+e>d<ed+ebed+e ]2
+A >c4&c<b>cde2  d4c4<b4>f4  e4&e<b>dc<b4&bgba  e4&e<b>dc<b8>e8a8b8
+A >c4&c<b>cde2  d4&dc<b>cd4<b4
+A q2 aaaara8ararag+rg+r  aaaara8ararabrbr  aaaara8ararag+rg+r aaaara8aar8g+4&g+ q0
+A ]255
+
+B [ l16 q0 o3
+B a4ab>ce8.decd<b>c  <g4gb>dg8efdecd<b  a4ab>ce8.decd<b>c
+B d8ef8gfge4&e16<gab >c4cdefd4<b8>d8  g+8f8e8g+8c4.<b8  a4&afga>c4&c<ab>c
+B <b4.eg+b4.> !fB
+B r [ cd  e4&edcd<a8a8b8>cd  e4&edcd<a8a8b8>cd  e4&edcd<a8a8b8g8 : >d4.&dc32<b32>c4&c<b> ]2
+B <a4.&a&{a>a}8.&a4. !fA
+B ab>ce8dc<baebe>c<eae  >d<e>c<ebe>c<ebed+ebe>d<b  aebe>c<eaebegeae>c<f  bed+e>c<ed+e>d<ed+ebed+
+B >cdea8aedcrdrercr  <brgrdrerdr8rgrgr  frgrarfrgrcrfrfr  g+r8.ar8.br8.g+r8.
+B c4&c<b>cde2  d4c4<b4>f4  e4&e<b>dc<b4&bgba  e4&e<b>dc<b8>e8a8b8
+B a4&afab>c2  <b4&bgdgb4g4>
+B q2 ccccrc8crcrc<brbr>  ccccrc8crcrcdrdr  ccccrc8crcrc<brbr> ccccrc8ccr8<b4&b q0
+B ]255
+
+C L [aa>!fD a !fE <a]4  [gg>!fD g !fE <g]4  [aa>!fD a !fE <a]4  [dd>!fD d !fE <d]2 ee>!fD e !fE<eeede
+C [f]8 [g]8 eeeeeeeeaaaagggg  ddddd>!fD d !fE <dd8>!fD d !fE <dddddd  ee>!fD e !fE <ee>!fD e !fE <eeeeeeeeee
+C [ [f]14 gg  [a]14 gg  [f]12 g>!fD g !fE <gg  [a]16 ]2
+C [ [a]16 [g]16 [f]16 [e]16 ]2
+C [ [f]16 [g]16 : [a]16 [a]16 ]2
+C [ aaag>!fD g !fE <gggff>!fD f !fE <ee>!fD e !fE <e>!fD e !fE < ]4
+
+D L >c1  <b1  >c1  <a2g+2
+D >fga>e4&e<gab>e8d8. <bg+>e<b>g+ebg+>c<ae>c<bgdb  >d8<a8f8d8a8f8d8<a8
+D beg+b>e<g+b>eg+<b>eg+bg+ab<
+D [ [[aece]3 : aece]3 bgdg [aece]3 <aea>c ]2
+D [c1  <b1  a1  g+1]2  a2>c4&c<b>ce  g4f4d4<b4
+D >c4&c<gbae4&eege  c4&c<gbae8a8>c8e8  f4e4f4a4g4<b4>d4g4>
+D q2 [eeeere8 : erereerer]4 eer8e4&e q0
+
+E L e1  d1  e1  f2e2
+E (10 >f8ga>e4&e<gab>e8d8. <bg+>e<b>g+ebg+>c<ae>c<bgdb  >d8<a8f8d8a8f8d8<a8
+E beg+b>e<g+b>eg+<b>eg+bg+a<
+E )10 [ [[aece]3 : aece]3 bgdg [aece]3 <aea>c ]2
+E < [e1  d1  c1  e1]2 a2>c4&c<b>ce  g4f4d4<b4
+E >c4&c<gbae4&eege  c4&c<gbae8a8>c8e8  f4e4f4a4g4<b4>d4g4>
+E q2 [ccccrc8 : crcrc<brbr>]4 ccr8<b4&b q0
+
+F L
+F [ [[!hg!hg!Ag!hg]3 : !hg!hg!Ag!Ag]4 !Ag!Ag!Ag!Ag ]2
+F [ [ !hg!hg!Ag!hg!hg!hg!Ag!hg!hg!hg!Ag!hg : !hg!Ag!Ng!hg ]4
+F   !hg!Ag32!Ag32!Ag!Ag ]2
+F [ [[!hg!hg!Ag!hg]3 : !hg!hg!Ag!Ag]4 : !Ag!Ag!Ag!Ag ]2
+F !hg!Ag!hg!Ag
+F [ [ [!hg!hg!Ag!hg]4 ]2 !hg!hg!Ag!hg!Ag!hg!hg!Ag ]2
+F [!hg!hg!Ag!hg]4
+F [ !hg!hg!Ag!hg!hg!Ag!hg : !Ag!hg!hg!Ag!hg!Ag!hg!Ag!hg ]4
+F !hg!hg!Ng8!hg!Ag!Ag!Ag!Ag

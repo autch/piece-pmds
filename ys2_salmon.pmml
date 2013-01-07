@@ -1,0 +1,74 @@
+#Title [Ys II] Palace of Salmon
+#Title2 (c) Falcom, arr: Autch
+
+!!bg @6  V125 ?o4c   ; bass drum
+!!Sg @8  V115 ?o4c   ; snare drum 1
+!!sg @7  V120 ?o5c   ; snare drum 2
+!!og @9  V100 ?o4c   ; open H.H.
+!!hg @10 V120 ?o5c   ; closeH.H.
+!!cg @11 V120 ?o4c   ; crush cymbal
+!!tg @13 V120 ?o4c   ; synth tom (hi)
+!!ug @14 V120 ?o4c   ; synth tom (mid)
+!!vg @15 V120 ?o4c   ; synth tom (low)
+!!Cg @16 V127 ?o4c   ; clap
+
+A T145
+
+!f Y8,140,80,90 E255,60,40,120
+!s Y8,140,80,90
+!b E255,110,93,120
+
+A @1 o3 V120 l4 D-4  !f ; FM
+B @1 o3 V110 l4 D4 !f ; FM
+C @1 o2 V120 l16 D0 !b ; FM
+D @0 o4 V90 l4 D-8  !s q2 ; SSG
+E @0 o4 V80  l4 D8 !s q2 ; SSG
+; F @0 o3 V100 l4     ; SSG
+
+;ABCDE (50
+
+
+F =1
+
+A L
+A [ o3 e4.a16b16>c8.d8.e8  d4.c16d16<b2  >c4.<b16a16e2  >d4.l16 cdedc<bab>cd  e4.ab>c8.d8.e8
+A d4.<b>c : d2   c4.<bab8.a8.g8  a1 ]2
+A o5 d8.c8.<b8  a4.b>cd8.g8.b8  a1
+
+A [ o4 f2&f16<a>cfafcf  g2 : d8.e8.f8  e4.dec2  o5 a4.ab>c2 ]2 o4 b4>d4  c8.<b8.a2&a8
+A o5 a8.g8.e8.d8.c8<a8
+A [ o4 f2&f16<a>cfafcf  g2 : d8.e8.f8  e4.dec2  o5 a4.ab>c2 ]2 o4 b4>d4  e1&e1
+
+B L
+B [ r16 o3 e4.a16b16>c8.d8.e8  d4.c16d16<b2  >c4.<b16a16e2  >d4.l16 cdedc<bab>cd  e4.ab>c8.d8.e8
+B d4.<b>c : d4.r16 <a4. gfg8.f8.d8  e1 ]2
+B o5 d8.c8.<b16  f4.gab8.>d8.g8  e1
+
+B [ r16 o4 f2&f16<a>cfafcf  g2 : d8.e8.f8  e4.dec4.&c16  o5 e4.eg+>a2 ]2 o4 b4>d8.  <a8.g8.e2&e8
+B o5 e8.d8.c8.<b8.a8e8
+B [ r16 o4 f2&f16<a>cfafcf  : g2 d8.e8.f8  e4.dec4.&c16  o5 e4.eg+>a2 ]2 o4 g4.&g16 g4>b4  b1&b1
+
+C L o2
+C [[ araaaraaaraaaraa  grgggrgggrgggrgg  frfffrff : frfffrff  grgggrggereeeree ]2
+C    grgggrgg  araaaraaaraaaraa ]2
+
+C [ o2 ffff>f<ff>f<r2  gggg>g<gg>g<r2 : >cccc>c<cc>c<r2  <aaaa>a<aa>a<gggg>g<gg>g< ]2
+C   aaaa>a<aa>a<r2   aaaa>a<aa>a<gggg>g<gg>g<
+C [ o2 ffff>f<ff>f<r2  gggg>g<gg>g<r2 : >cccc>c<cc>c<r2  <aaaa>a<aa>a<gggg>g<gg>g< ]2
+C   ereeereeereeeree ereeereeereeeree
+
+E r16
+DE L
+DE [ o4 aea8.b8.>c8<  bgd8.g8.b8  a2c4.g16a16  g2g+2
+DE      aea8.b8.>c8<  b4.g16a16b8.>c8.d8<  f4.g16a16g8.a8.b8  l16 aeab>c<b>cdedegaec<a l4 ]2
+
+DE [ [ f8.c8.f8.a8.g8f8  g2&g16 l16 <b>dgbagb l4 :  >c4.&c16{<b<b}2&16  l16 a>ceacea>c<ea>ce<a>cea< l4 ]2
+DE     a4.&a16 {g+<d+}2&16 : l16 a>ceacea>c<ea>ce<a>cea< l4 ]2
+DE  l16 o3 g+b>eg+<b>eg+beg+b>e<g+b>eg+ l4
+
+F l16 L
+F [[!hg!hg!hg!hg!sg!hg!hg!hg !hg!hg!hg!hg!sg : !hg!hg!hg]4 !sg!sg!sg
+F  [!hg!hg!hg!hg!sg!hg!hg!hg : !hg!hg!hg!hg!sg!hg!hg!hg]4 : !sg!sg!hg!sg!hg!hg!sg!sg ]2
+F !tg!tg!tg!tg!ug!ug!vg!vg
+
+F [ [ !hg!hg!hg!hg!sg!hg!hg!hg!hg4!hg4 ]3 !hg!hg!hg!hg!hg!hg!hg!hg!hg!hg!hg!hg!hg!hg!hg!hg ]4

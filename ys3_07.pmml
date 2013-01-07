@@ -1,0 +1,150 @@
+#Title [Wanderers from Ys] óÉÇéùÇ¡ÇΩè≠îN
+#Title2 (c) Falcom, arr: Autch
+
+!!bg @6  V125 ?o4c   ; bass drum
+!!sg @8  V125 ?o4c   ; snare drum 1
+!!Ag @7  V125 ?o5c   ; snare drum 2 (hi)
+!!Sg @7  V125 ?o4c   ; snare drum 2
+!!og @9  V100 ?o4c   ; open H.H.
+!!hg @10 V100 ?o4c   ; closeH.H.
+!!cg @11 V125 ?o4c   ; crush cymbal
+!!tg @13 V125 ?o4c   ; synth tom (hi)
+!!ug @14 V125 ?o4c   ; synth tom (mid)
+!!vg @15 V125 ?o4c   ; synth tom (low)
+!!Cg @16 V127 ?o4c   ; clap
+
+A T147
+
+!f Y10,140,80,120
+!s Y10,140,80,120
+!nY Y0,0,0,0
+
+!fA @1 E255,60,40,20 !f
+!fB @0 E255,140,40,220 !f
+!fC @1 E210,60,40,20 !f
+!fD @1 E255,60,40,20 !f
+!fX @1 E255,140,40,200 !nY
+
+!sA E255,80,40,120 !s
+!sB E200,80,80,120 !s
+!sC E255,140,0,220 !nY
+!sX E255,140,40,200 !nY
+
+A @1 V120 q1 l8 o4 D4 !f
+B @0 V110 q0 l16 D0 !f
+;C V100 q0 l16
+D @0 V90 q0 l8 D8 !s
+E @0 V90 q0 l8 D0 !s
+F @0 V90 q0 l8 D-8 !s
+
+;CDEF V0
+
+C =1
+
+A o4 !fX a16a16a16a8. a16r16
+B o4 !fX dddd8.d8r8r4
+C l16 !sg!sg!sg!sg!bg8!Ag8!bg!bg !cg4
+D o4 l8 !sX aa16a.a4r4
+E o4 l8 !sX <a+a+16a+.a+4>r4
+F o4 l8 !sX d8d16d8.d4 r4
+
+A q1 L [ !fA
+A    <g>fc  d2&d<a+>cd&  d%16c%16<a+%16a%16a+%16>c%16  d1
+A r2r<g>fc  d2&d<a+>cd&  d%16c%16<a+%16a%16g%16f%16  g1>
+A !fC r2r<g>gd  d+2&d+d+fg4.g4fd+4f1d1d+2.fgd+2.fgf+2&f+8g4.a4r8
+A f+4g8a4a+1&a+8 r4 a4>c%16<a+%16a%16a+1 r4 a4>c%16<a+%16a%16a+1 r4 a4>c%16<a+%16a%16a+1&a+2&a+8
+A r4 g2.fga2.gf : g1&g8 r8r2
+A ]2
+A g1&g2&g4
+A !fD <a>cf
+A g4.f4.g4f4.d+4.f4g4.a+4.a4d2.&d8
+A g2f4.g4f4.d+4.f4g2a2a+2
+A a4a+4>c4.<g8g2.a4a+4>c4<a+4.d8d2.
+A d4d+4f8g2d+4fga+a4.f4ga>c<a+4.a2&a8g4.a2&a8a+4.a2&a8g4.f+4
+
+B _12 !fB L [ o1 
+B [grg>g<]4  [d+rd+>d+<]2[frf>f<]2  [[grg>g<]4]3
+B [d+rd+>d+<]2[frf>f<]2  [grg>g<]4  [grg>g<]3  dr>d<d
+B o2
+B [ d+%16d+%16d+%16 r2 ]2  [d%16d%16d%16 r2]2
+B [crcc]3 cr<a+a+8 [ra+a+a]3 raa8 [raaa]3 r>dd8 [rdd:d]4
+B [ g8<g>g8<g>g8f8<f>f8<f>f8 : d+8<d+>d+8<d+>d+8f8<f>f8<f>f8 ]4
+B o1 d+8rd+r8d+4>d+8<r8d+8.[rd+>d+<:d+]4 f [rf>f<:f]4 g : [rg>g<:g]8
+B ]2
+B o1 [rg>g<g]6
+B rf8a8>c8<
+B [d+r>d+<d+]8 [gr>g<g]8 [d+r>d+<d+]8 [gr>g<g]8 [d+r>d+<d+]8 [gr>g<g]8
+B [d+r>d+<d+]4 [fr>f<f]4
+B >g8g8< g8>f4f8<f8>f8d+8d+8 <d+8>f4f8<f8>f8g8g8  <g8>f4f8<f8>f8d+8d+8<d+8>d4r8d4
+
+C L [
+C [ [!bg r!hg!hg!sg r!hg!hg!bg r!hg!hg : !sg r!hg!hg]4
+C !sg!sg!sg!sg ]2
+C !bg%16!bg%16!bg%16 r8 !hg!hg!sg4
+C !bg%16!bg%16!bg%16 r8 !hg!hg!sg8!Ag8
+C !bg%16!bg%16!bg%16 r8 !hg!hg!sg4
+C !bg%16!bg%16!bg%16 r8 !hg!hg!sg8!sg!sg
+C [!bg r!hg!hg!sg r!hg!hg!bg r!hg!hg !sg r:!hg!hg]3
+C !bg!bg
+C !sg rr!sg!tg!tg!ug!ug!vg!vg8!bg!Ag!Ag8!Ag
+C [ !bg8!sg!bg8!sg!bg!sg!bg8:!sg!bg8!sg!bg!sg]8
+C !sg!sg!sg!sg!sg!sg
+C [!bg r!hg!hg!sg r!hg!hg!bg r!hg!hg!sg r!hg!hg]3
+C !bg!sg!sg!sg!sg rr!sg rr!sg!Ag8!sg!sg!sg
+C ]2
+C [ [!bg r!hg!hg!sg r!hg!hg!bg r!hg!hg !sg r:!hg!hg]4
+C r!sg ]2
+C [!bg r!hg!hg!sg r!hg!hg!bg r!hg!hg : !sg r!hg!hg]4
+C !sg!sg!sg!sg
+C !bg r!hg!hg!sg r!hg!hg!bg r!hg!hg!sg r!hg!hg
+C !bg r!hg!hg!sg r!hg!hg!bg r!tg8!ug8!vg8
+C !bg r!hg!hg!sg r!bg rr!bg !sg r!Ag8!Ag8
+C !bg r!hg!hg!sg r!bg rr!bg !sg r!tg8!vg8
+C !bg r!hg!hg!sg r!bg rr!bg !sg r!Ag8!Ag8
+C !bg r!hg!hg!sg r!bg rr!bg !sg!sg!sg!sg!sg!sg
+
+D !sA L [
+D rg>fcd4.<a+4.g4f%16g%16a%16a+2&a+8 !sX >a16a16a16a8. r8a16a16a16a8.a8.a8.< !sA r8
+D rg>fcd4.<a+4.g4>c%16<a+%16a%16a+2&a+8 !sX >a16a16a16a8. r8a16a16a16a8.a8.a8.< !sA r8
+D a+1&a+4 >d4c4<a+8>c1<a1  a+2.>cd<a+2&a+8>cdd+d2&d8
+D e4.f+4.< !sB a4a+>c4d1&d4 r8c4d+%16d%16c%16d1&d8 r8c4d+%16d%16c%16d1&d8 r8
+D c4d+%16d%16c%16d%16c%16<a+%16&a+8>c8d8a+8a8.g16r8g2
+D !sA d+1 f1 : g1&g8 r8 !sX g16g16g16g8.g8.g8. !sA r8
+D ]2
+D g<gddabab>dgdgbacfa !sC
+D l16
+D [ [ d+<a+>d+  fga+>d+fgfd+<a+gfd+<a+> ]2 [ <gdg  aa+>dgaa+agd<a+agd>]2 ]3
+D l8 !sA
+D d+<a+>d+fgd+ga+af  c<a>c<afc>
+D g4gf4f4f8d+4d+8 f4f4f8 g4g8 f4f4f8 d+4d+8 d2&d8
+
+E !sA L [
+E ra+>c<aa+4.g4.d+4c%16c%16f%16g2&g8 !sX a+16a+16a+16a+8. r8a+16a+16a+16a+8.a+8.a+8. !sA r8
+E ra+>c<aa+4.g4.d+4f%16c%16c%16d2&d8 !sX a+16a+16a+16a+8. r8a+16a+16a+16a+8.a+8.a+8. !sA r8
+E g1&g4 a+4a4g8 a1 f1 g1g1>c2&c8c4.  c4.<d4e8f+4g8
+E >> l16 (10 [[a+gag]4]6 )10
+E << l8 a+%16a%16g%16&g8a8a+8>d8d+8.d+8.d+2
+E < a+1>c1 : d1&d8 r8 !sX d16d16d16d8.d8.d8. !sA r8
+E ]2 !sA
+E d1&d2&d4 fa>c<<
+E a+4.a4.a+4a4.g4.a4a+4.>d4.c4<g2.&g8
+E a+2a4.a+4a4.g4.a4a+2>c2d2c4d4d+4.<a+8a+2.> c4d4d+4d4.< g8g2.  g4g4
+E aa+gd+gaa+ga+>d+c<afcfc<af
+E >d4d8c4c4c8<a+4a+8>c4c4c8d4d8c4c4c8<a+4a+8a2&a8
+
+F !sA L [
+F >>d2&d8<a+>cd& d%16c%16<a+%16a%16a+%16>c%16d2&d8  !sX <d16d16d16d8.r8d16d16d16d8. !sA
+F   d8g8>fcd2&d8 <a+>cd&d%16c%16<a+%16a%16g%16f%16  g2&g8 !sX d16d16d16d8.r8d16d16d16d8.d8.d8. !sA r8
+F r8 (20 < a+1&a+4 >d4c4<a+8>c1<a1  a+2.>cd<a+2&a+8>cdd+d2&d8
+F e4.f+4.< !sB a4a+>c4d1&d4 r8c4d+%16d%16c%16d1&d8 r8c4d+%16d%16c%16d1&d8 r8
+F c4d+%16d%16c%16d%16c%16<a+%16&a+8>c8d8a+8a8.g16r8g4.
+F )20 !sA
+F <g1 a1 : a+1&a+8 r8 !sX a+16a+16a+16a+8.a+8.a+8. !sA r8
+F ]2
+F a+4
+F gddabab>dgdgbacfa !sC (20
+F l16
+F [ [ d+<a+>d+  fga+>d+fgfd+<a+gfd+<a+> ]2 [ <gdg  aa+>dgaa+agd<a+agd>]2 ]3
+F l8 )20 !sA
+F d+<a+>d+fgd+ga+af  c<a>c<af
+F a+4a+a4a4a8g4g8 a4a4a8 a+4a+8 a4a4a8 g4g8 f+2&f+8

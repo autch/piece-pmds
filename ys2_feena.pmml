@@ -1,0 +1,30 @@
+#Title [Ys II] FEENA
+#Title2 (c) Falcom, arr: Autch
+
+!f @1 o4 V120 q1 E190,80,120,80 Y8,140,80,80  ; FM
+!p @0 o4 V110 q0 E200,100,0,140 Y8,140,80,80 ; SSG
+
+A T74
+
+A !f D8
+B !f D0 (20
+C !f D-8
+D !p
+E !p
+F !p <
+
+A l32 d&d+&e&f  l4
+B     r8        l4 r32
+C l32 g&g+&a&a+ l4
+
+A [ f+16e16f+16 b16 f+2 : e ]2 d
+B [ f+16e16f+16 b16 f+2 : e ]2 d
+C [ b16 a16b16 >e16< b2 : a ]2 g
+
+A e<a2>c e<a2>d8.&c+32&c32&<b1.>
+B e<a2>c e<a2>d8.&c+32&c32&<b1.>
+C a e2 g a e2 a8.&g+32&g32& f+1.
+
+D r8 d2.r4 d2.r4 c2.r4 c2.r4 <b1.
+E r8 g2.r4 g2.r4 g2.r4 g2.r4 f+1.
+F r8 e2.r4 e2.r4 f2.r4 f2.r4  e1.

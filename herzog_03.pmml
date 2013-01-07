@@ -1,0 +1,73 @@
+#Title [Herzog] BACK TO SQUARE ONE
+#Title2 (c) Tecnosoft, arr: Autch
+
+!!bg @6  V125 ?o4c   ; bass drum
+!!sg @7  V127 ?o5c   ; snare drum 2
+!!tg @13 V120 ?o4c   ; synth tom (hi)
+!!ug @14 V120 ?o4c   ; synth tom (mid)
+!!vg @15 V120 ?o4c   ; synth tom (low)
+!!xg @10 V120 ?o5c
+
+;!!bg @6  V125 ?o4c   ; bass drum
+;!!og @9  V100 ?o4c   ; open H.H.
+;!!hg @10 V110 ?o5c   ; closeH.H.
+;!!cg @11 V120 ?o4c   ; crush cymbal
+
+A T215
+
+A =1 V120
+B @0 V100 q1 D1		Y5,140,90,40 E255,60,80,20
+C @1 V120 q2 D0		Y5,140,90,40 E255,60,80,20
+D @1 V110 q0 D2		Y5,140,90,40
+E @0 V100 q0 D-1	Y5,140,80,40 E240,48,100,100
+F @1 V100 q0 D-2	Y5,140,90,40
+
+A l16 !xg ggg l8 gggggg     !bg  g  !sg4   !bg  g !sg4   ; A
+A l16 !xg ggg l8 gggggg l16 !bg rgg !sg8g8 !bg rgg!sg8g8 ; B
+A L
+A l16 !xg ggg l8 gggggg     !bg  g  !sg4   !bg  g !sg4   ; A
+A l16 !xg ggg l8 gggggg l16 !bg rgg !sg8g8 !bg rgg!sg8g8 ; B
+A l8 [ !xg g!tg!xg ]7 !sg ggg 
+A [ !xg g!sg4 ]14 !sg!xg g!sg!xg g!sg!xg
+A [ !xg g!sg4 ]15 l16 !sg ggg l32 !sg g !tg g !ug g !vg g
+A l8 [ [ !xg g!sg4 ]7 !sg ggg ]2 [ !xg g!sg4 ]31 !sg ggg
+A [ l16 !xg ggg l8 gggggg     !bg  g !sg4   !bg  g !sg4      ; A
+A   l16 !xg ggg l8 gggggg l16 !bg rgg!sg8g8 !bg rgg!sg8g8 ]2 ; B
+A [ l16 !xg ggg l8 gggggg l16 !bg rgg!sg8g8 !bg rgg!sg8g8 ]2 ; Bx2
+
+B L o4 l8
+B e1 ererere4e1 grgrere4e1 ererarb4g1c2ae4. e1&1&1&1
+B <ea>dcdc<bgea>dcdec<b ea>dcdc<bgea>dcd fed
+B dc<b>dc<b>dc<b>c<ba>c<ba>c<ba>c<ba> dc<ba
+B egagedc <eab>cdc<ba> dcedfa>c<e>c<b>dc<b>dc<bagefdfed<ae>cdc<bafede
+B >c<bagfbfab>cdcdc<abeaba>c> o4 e1&1&1&1 e1&1&1&1
+B > [ dc<ba>c<bagbagfagfe  >dc<ba>edc<b>cd<b>c<abag> ]4
+B o4 e1&1&1 c1 e1&1&1&1
+
+C L l8 o2
+C [ aa>drcr<bgrgggegre aa>drcr<b>crccc< : b>cr<g ]2 e<e>e>e<
+C a<a>a4eg4&g a<a>a4>c<b4&b a<a>a4eg4&g a<a>af<f>fg4
+C l4 a<a8>a<a8>a g<g8>g<g8>g >c<c8>c<c8>c <e<e8>e<e8>e
+C    a<a8>a<a8>a >c<c8>c<c8>c <g<g8>g<g8>g e<e8>e<e8>e
+C [ f<f8>f<f8>f e<e8>e<e8>e ]2
+C a<a8>a<a8>a e<e8>e<e8>e f<f8>f<f8>f e<e8>f<f8>g
+C l8 [ a<a>a4eg4&g a<a>a4>c<b4&b a<a>a4eg4&g a<a>af<f>fg4 ]2
+C o3 [ d4<d>d4cde c4<c>c4dc<b> d4<d>d4cdec4<b4a4g4>
+C d4<d>d4cde c4<c>c4dc<b> d4<d>d4cdec4<b4>c4 : e4 ]2 <g4
+C o2 [ aa>drcr<bgrgggegre aa>drcr<b>crccc< : b>cr<g ]2 e<e>e>e<
+
+F r8
+DF L l8 o4
+DF a1 argr>cr<b4
+DF a1>cr<brgrb4a1argr>crd4<b1e2>c<b4&b a1&a1&a1&a1
+DF e1 a2>c2<b1>c2e2d1c1<b1e1 d1e2c2d1g2f2a1e1f1e2g2 a1&a1&a1&a1 a1&a1&a1&a1
+DF > l4 [ d<d8>d2&8edc<b> c<c8>c2&8de<b>c d<d8>d2&8edc<b> : c.d.edcde ]2
+DF l8 c4<c>d4<d>e<e>d<d>c<cb<b>g<g> a1&1&1 e1 a1&1&1&2
+DF l16 <ab>cdefg8
+
+E L l4 o3
+E aag8a.>c<bge aag8a.>c<b>d<g aag8a.>c<bge aag8a.f2g8g4.a1&1 <a1&1>
+E l1 e a b>cded<edede a>c<bg
+E l4 aag8a.>c<bge aag8a.>c<b>d<g aag8a.>c<bge aag8a.f8f16f16 g8g16g16 a8a16a16 >c8c16c16
+E r2 o6 (10 [ <b8>c8d1&2. <a8b8> : c1&2. ]4 c1&4 )10
+E o3 aag8a.>c<bge aag8a.>c<b>d<g aag8a.>c<bge aag8a.f2g8g4.

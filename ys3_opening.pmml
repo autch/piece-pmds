@@ -1,0 +1,48 @@
+#Title [Wanderers from Ys] 予感 = スティクス =
+#Title2 (c) Falcom, arr: Autch
+
+A T123
+
+!fA @4 E255,100,80,100 Y8,140,80,40
+!fB @1 E255,110,40,220 Y8,140,80,40
+!fC @3 E255,100,40,220 Y8,140,80,40
+!fD @0 E255,110,40,220 Y8,140,80,90
+
+!sA E255,100,40,220 Y8,140,80,90
+!sB E240,130,0,220 Y8,140,80,90
+
+A @2 V120 q0 l4 o1 __12 D0 !fA
+B @1 V110 q0 l4 o4 D8 !fB
+C @1 V90 q0 l4 o4 D4 !fB
+D @0 V90 q0 l4 o3 D-8 !sA
+E @0 V90 q0 l4 o3 D-4 !sA
+F @0 V70 q2 l8 o6 D0 !sB
+
+;BCDEF V0
+
+A L [ [ e1&e2&e4.a16b16 ]2 ]2
+A e1e1e1&e8 >c<bg8d4
+A [ e1 e1 c1 c1 d1 d1 : e1 e2 >c8.<b8.g8 ]2
+A                       e1&e4 <b.>d.
+
+B L !fB [ <b.e16f+16a8>d8a8f+de.&e  <b.e16f+16a8>d8a8f+dea8b ]2 r1
+B o6 l8 !fC (20 bgaf+gef+d ec+d<b>c+<abg r1 )20
+B o4 l4 !fD b1.ab  b2.a8a1&a8  b2.a8a2.g8a8b8&b1&b2e8f+8g8a8 
+B       b1.ab  b2.a8a1&a8  b2.a8a2.g8a8e8&e1&e2. r
+
+C r16 L !fB [ <f+.e16f+16a8>d8a8f+de.&e  <f+.e16f+16a8>d8a8f+dee8f+ ]2 r1
+C o6 l8 !fC (20 r bgaf+gef+d ec+d<b>c+<abg r2.r8 )20
+C o4 l4 !fD f+1.ef+  f+2.e8e1&e8  b2.a8a2.g8a8b8&b1e2.r
+C       f+1.ef+f+2.e8e1&e8  b2.a8a2.g8a8e8&e1&e2. r
+
+D L [ b1.&b16 r16r4. b1.&b16 r16r4. ]2
+D b1&b1&b1&b1
+D [ [b2b2]3 a2a2 b2b2 a2>d2< [b2b2]2 ]2
+
+E L [ f+1.&f+16 r16r4. f+1.&f+16 r16r4. ]2
+E f+1&f+1&f+1&f+1
+E [f+2f+2]16
+
+F L [ [ b(5b)5f+(5f+)5ra(5a)5e(5e)5 r8r2. ]2 ]2
+F r1 r1 r1 r1
+F [ [ef+ab]4 [cdf+b]4 [df+ab]4 [ef+ab]4 ]2

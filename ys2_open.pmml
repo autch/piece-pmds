@@ -1,0 +1,95 @@
+#Title [Ys II] To make the end of battle
+#Title2 (c) Falcom, arr: Autch
+
+!!bg @6  V125 ?o4c   ; bass drum
+!!Sg @8  V115 ?o4c   ; snare drum 1
+!!sg @7  V120 ?o5c   ; snare drum 2
+!!og @9  V100 ?o4c   ; open H.H.
+!!hg @10 V100 ?o4c   ; closeH.H.
+!!cg @11 V120 ?o4c   ; crush cymbal
+!!tg @13 V120 ?o4c   ; synth tom (hi)
+!!ug @14 V120 ?o4c   ; synth tom (mid)
+!!vg @15 V120 ?o4c   ; synth tom (low)
+!!Cg @16 V127 ?o4c   ; clap
+!!Ag @7 ?o5c ; Snare w/o volume
+!!Bg @7 ?o4c
+
+!fAA @1 E255,0,127,0 q1 V110 _0
+!fAB @1
+!fAC @3 E255,40,110,0 V100 _12
+!fAD @1 E255,40,100,80 V110 _0
+!fAE @1 V110 _12
+!fAF @4
+!fAG @0 E255,140,40,220 V80 _12
+
+!fB  @0 V100
+!fBX @1 V110
+
+!sA @0 E255,200,110,0 V90 Y8,140,80,90
+!sB @0 E240,10,110,80 V70
+
+A @1 l16 q1 V110 o3 !fAA Y8,140,80,90
+B @0 l16 q2 V100 o2 !fB Y8,140,80,90
+C =1 l16 q0 V100 ; Rhythm
+D l16 o5 !sA D8
+E l16 o5 !sA 
+F l16 o5 !sA D-8
+
+ABDEF r4
+
+A L !fAA
+A d+ega8<aaa>c+<a>d<a>e<a>d<a>>l32 !fAB aa+aa+aa+aa+ > aa+aa+aa+aa+ < l16
+A aa+>c+<a+aa+>c+d !fAA
+A <c+<aa+gafgea+gafgefdc+defgaa+>c+ec+<a+>fc+<a+
+A <efg4.aa+>c+4. efgfefgaa+>c+
+A e8e8f8g8 
+
+A [ fecd2&d16 <a>cec fecd2&{d<g}16  agfe 
+A   f8.d8.f8g8.e8.g8a8.f8.d8e8.g8.a+8a2
+A   >defgagfeg8.e8&{ec}16 c8<g8.>c8.e8
+A   fd<afda>dfec<gecg>ce< : dfa>c+dfa>c+d4.&{d<<a+}8 !fAC ]2
+A !fAD d+8.<a+32>d+32 g8.d+32g32 a+8.g32a+32 >d+4<
+A !fAE a4 dfga8.g8fg8>d8.<a8gf8e8.f8.g8.
+A !fAF >a4 dfga8.g8fg8>d8.d8e8d8d4c+4
+A !fAG < [ [dfa]4 d+ga+g [dfa]4 cceg ]2
+
+B L
+B aaaa>c+<a>d<a>e<a>f<a>g<a>f<a  >e<a>f<a>e<a>d<a>c+<aa+gaa+>c+<a+
+B [ aaa>>!fBX a8. !fB <a8 : a<aaraa>c+d< ]4 <aa>a<abb>c+c+
+B [ dddd dddd dddd dddd cccc cccc cccc cccc 
+B   <a+a+>fa+>d<a+fa+ccg>cec<g>c< : ddfa>d<afd<a>age<aaaa> ]4  d+d+a+d+gd+ad+a+d+>d+<d+>a<d+>a+<d+
+B [ dd>d<dga>cd<ff>f<fff>f<f a+a+>a+<a+a+a+>a+<a+
+B   aa>a<a> : g<a>a<a ]2 aec+<a>
+B [ d r8 d r8 >cd< r dfdd+d+ga+  d r8 d r8 >cd< r dfdccec ]2
+
+C r!bg!Bg8
+C L
+C [!bg!bg!sg8]8
+C !bg [!hg!hg!sg!bg!sg!bg!bg!bg]3
+C !hg!hg!sg!bg!sg!sg!sg!bg [!hg!hg!sg!bg!sg!bg!bg!bg]3
+C V100 !Ag!Ag )5 !Ag )5 !Ag )5 !Ag )5 !sg!sg
+C [ !bg!hg!sg!hg ]15 !sg!sg!sg!sg
+C [ !bg!hg!sg!hg ]14 !bg!sg!sg!bg!sg!sg!bg!sg
+C [ !bg!hg!sg!hg ]15 !sg!sg!sg!sg
+C [ !bg!hg!sg!hg ]14 !bg!tg!sg!tg l32 !ug!ug!ug!ug!vg!vg!vg!vg l16
+C [ !bg!hg!sg!hg ]15 !bg!bg!bg!bg!bg
+C [ !hg!hg!bg!hg!hg!sg8!bg!bg8 : !bg!bg!bg8!bg!bg ]4 !bg!bg8!sg!sg
+
+DEF L
+D e2g2 >a+gec+<a+gec+   efg+fefg+a  a+2>e2 g4.f8e2  <a+2>e2g2  <e8c+8d8e8
+E e2g2 >gec+<a+gec+<a+ >c+dedc+def  g2a+2 >e4.d8c+2 <g2a+2>e2  <e8c+8d8e8
+F c+2e2 >ec+<a+gec+<a+g> efg+fefg+a d2g2   a+4.a8g2  e2g2a+2  <c+8<a8b8>c+8
+
+DF [ dc<ga4&a16 >a8g8f8e8dc<ga4&a16  >a8g8f8e8 d8.<a8.>d8e8.c8.e8  f8.d8.<a8>c+8.e8.g8
+DF <f2a4>d4  e2c2  f2e2 : d2d8c+8<b8>c+8 ]2 !sB a+1 !sA
+E  [ <agef4&f16 >f8e8d8c8<agef4&f16  >f8e8d8c8 <a8.f8.a8>c8.<g8.>c8  d8.<a8.e8g8.>c+8.e8
+E  <d2f4a4  >c2<g2>d2c2 : <a2a8a4a8 ]2 !sB g1 !sA
+
+DF ffff8ff8ffff8ff8 a+a+a+a+8a+a+8aaaa8aa8  >ffff8ff8ffff8ff8  a+a+a+a+8a+a+8 aaaa8
+E  dddd8dd8cccc8cc8 ffff8ff8eeee8ee8        >dddd8dd8cccc8cc8  ffff8ff8eeee8
+D a{a<a}8
+E e{e<e}8
+F a{c+<c+}8
+
+DF < [ [fa>d]4 <ga+>d+<a+ [fa>d]4 <g8>c e< ]2 
+E  < [ [ad>f]4 <a+>d+gd+<  [ad>f]4 e8g>c< ]2

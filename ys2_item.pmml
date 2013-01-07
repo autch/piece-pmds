@@ -1,0 +1,23 @@
+#Title [Ys II] •ó” 
+#Title2 (c) Falcom, arr: Autch
+
+!f @1 o4 V110 q0 E255,40,40,40 Y8,140,80,80  ; FM
+!p @0 o4 V110 q1 E200,48,100,100 Y4,140,80,80 ; SSG
+
+A T140
+
+A !f l8 o2
+B !f l8 o3 D2
+C !f l8 o3 D-2
+D !p l8 o4 D4
+E !p l8 o4 D-4
+F !p l8 o4
+
+A c+1c1
+B c+2f2e1
+C g+2>c+2c1
+
+E r16 (20
+DE c+<g+>c+d+fc+fg+
+DE T100 >c< g T80 f d e2
+F f2g+2g1
