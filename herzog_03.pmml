@@ -1,12 +1,12 @@
 #Title [Herzog] BACK TO SQUARE ONE
 #Title2 (c) Tecnosoft, arr: Autch
 
-!!bg @6  V125 ?o4c   ; bass drum
-!!sg @7  V127 ?o5c   ; snare drum 2
+!!bg @6  V120 ?o4c   ; bass drum
+!!sg @7  V120 ?o5c   ; snare drum 2
 !!tg @13 V120 ?o4c   ; synth tom (hi)
 !!ug @14 V120 ?o4c   ; synth tom (mid)
 !!vg @15 V120 ?o4c   ; synth tom (low)
-!!xg @10 V120 ?o5c
+!!xg @10 V110 ?o5c
 
 ;!!bg @6  V125 ?o4c   ; bass drum
 ;!!og @9  V100 ?o4c   ; open H.H.
@@ -16,11 +16,11 @@
 A T215
 
 A =1 V120
-B @0 V100 q1 D1		Y5,140,90,40 E255,60,80,20
-C @1 V120 q2 D0		Y5,140,90,40 E255,60,80,20
-D @1 V110 q0 D2		Y5,140,90,40
-E @0 V100 q0 D-1	Y5,140,80,40 E240,48,100,100
-F @1 V100 q0 D-2	Y5,140,90,40
+B @0 V90 q1 D2		Y5,140,90,40 E255,60,80,20
+C @1 V110 q2 D0		Y5,140,90,40 E255,60,80,20
+D @1 V110 q0 D4		Y5,140,90,40 E255,40,100,80
+E @3 V90 q0 D-2	Y5,140,80,40 E240,48,100,100
+F @1 V90 q0 D-4	Y5,140,90,40 E250,40,80,80
 
 A l16 !xg ggg l8 gggggg     !bg  g  !sg4   !bg  g !sg4   ; A
 A l16 !xg ggg l8 gggggg l16 !bg rgg !sg8g8 !bg rgg!sg8g8 ; B
@@ -69,5 +69,5 @@ E L l4 o3
 E aag8a.>c<bge aag8a.>c<b>d<g aag8a.>c<bge aag8a.f2g8g4.a1&1 <a1&1>
 E l1 e a b>cded<edede a>c<bg
 E l4 aag8a.>c<bge aag8a.>c<b>d<g aag8a.>c<bge aag8a.f8f16f16 g8g16g16 a8a16a16 >c8c16c16
-E r2 o6 (10 [ <b8>c8d1&2. <a8b8> : c1&2. ]4 c1&4 )10
+E r2 o6 [ <b8>c8d1&2. <a8b8> : c1&2. ]4 c1&4
 E o3 aag8a.>c<bge aag8a.>c<b>d<g aag8a.>c<bge aag8a.f2g8g4.
