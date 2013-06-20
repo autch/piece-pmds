@@ -15,14 +15,14 @@
 
 A T147
 
-!f Y10,140,80,120
-!s Y10,140,80,120
+!f Y10,100,80,120
+!s Y10,100,80,120
 !nY Y0,0,0,0
 
 !fA @1 E255,60,40,20 !f
 !fB @0 E255,140,40,220 !f
 !fC @1 E255,60,40,20 !f
-!fD @1 E255,60,40,20 !f
+!fD @0 E255,60,40,20 !f
 !fX @1 E255,140,40,200 !nY
 
 !sA E255,80,40,120 !s
@@ -56,11 +56,11 @@ A f+4g8a4a+1&a+8 r4 a4>c%16<a+%16a%16a+1 r4 a4>c%16<a+%16a%16a+1 r4 a4>c%16<a+%1
 A r4 g2.fga2.gf : g1&g8 r8r2
 A ]2
 A g1&g2&g4
-A !fD <a>cf
+A !fD (10 <a>cf
 A g4.f4.g4f4.d+4.f4g4.a+4.a4d2.&d8
 A g2f4.g4f4.d+4.f4g2a2a+2
 A a4a+4>c4.<g8g2.a4a+4>c4<a+4.d8d2.
-A d4d+4f8g2d+4fga+a4.f4ga>c<a+4.a2&a8g4.a2&a8a+4.a2&a8g4.f+4
+A d4d+4f8g2d+4fga+a4.f4ga>c<a+4.a2&a8g4.a2&a8a+4.a2&a8g4.f+4 )10
 
 B _12 !fB L [ o1 
 B [grg>g<]4  [d+rd+>d+<]2[frf>f<]2  [[grg>g<]4]3

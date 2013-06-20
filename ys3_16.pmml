@@ -19,7 +19,7 @@ F =1
 A T110
 
 !fA @1 E255,60,80,20 Y8,140,80,120 ; FM A
-!fB @1 E255,0,120,20 Y8,140,80,120 ; FM B
+!fB @0 E255,0,120,20 Y8,140,80,120 ; FM B
 !fC @0 E255,140,40,220 ; FM Bass initial
 !fD @4 E255,140,40,220 )10 ; FM Bass A
 !fE @0 E255,140,40,220 (10 ; FM Bass B
@@ -55,7 +55,7 @@ A ]255
 B [ l16 q0 o3
 B a4ab>ce8.decd<b>c  <g4gb>dg8efdecd<b  a4ab>ce8.decd<b>c
 B d8ef8gfge4&e16<gab >c4cdefd4<b8>d8  g+8f8e8g+8c4.<b8  a4&afga>c4&c<ab>c
-B <b4.eg+b4.> !fB
+B <b4.eg+b4.> ;!fB
 B r [ cd  e4&edcd<a8a8b8>cd  e4&edcd<a8a8b8>cd  e4&edcd<a8a8b8g8 : >d4.&dc32<b32>c4&c<b> ]2
 B <a4.&a&{a>a}8.&a4. !fA
 B ab>ce8dc<baebe>c<eae  >d<e>c<ebe>c<ebed+ebe>d<b  aebe>c<eaebegeae>c<f  bed+e>c<ed+e>d<ed+ebed+
