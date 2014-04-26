@@ -2,11 +2,11 @@
 #Title2 (c) Tecnosoft, arr: Autch
 
 !!bg @6  V120 ?o4c   ; bass drum
-!!sg @7  V120 ?o5c   ; snare drum 2
+!!sg @7  V120 ?o4c   ; snare drum 2
 !!tg @13 V120 ?o4c   ; synth tom (hi)
 !!ug @14 V120 ?o4c   ; synth tom (mid)
 !!vg @15 V120 ?o4c   ; synth tom (low)
-!!xg @10 V110 ?o5c
+!!xg @10 V110 ?o4c
 
 ;!!bg @6  V125 ?o4c   ; bass drum
 ;!!og @9  V100 ?o4c   ; open H.H.
@@ -19,7 +19,7 @@ A =1 V120
 B @0 V90 q1 D2		Y5,140,90,40 E255,60,80,20
 C @1 V110 q2 D0		Y5,140,90,40 E255,60,80,20
 D @1 V110 q0 D4		Y5,140,90,40 E255,40,100,80
-E @3 V90 q0 D-2	Y5,140,80,40 E240,48,100,100
+E @0 V90 q0 D-2	Y5,140,80,40 E240,48,100,100
 F @1 V90 q0 D-4	Y5,140,90,40 E250,40,80,80
 
 A l16 !xg ggg l8 gggggg     !bg  g  !sg4   !bg  g !sg4   ; A
