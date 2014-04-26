@@ -18,7 +18,7 @@ A T150
 
 !fA @1 V120 E255,90,40,20 Y5,130,80,100 ; Mel.A
 !fB @1 V120 E240,90,40,20 Y5,130,80,100 ; Mel.B
-!fC @0 V110 E255,140,40,200 ; Bass
+!fC @4 V120 E255,140,40,200 ; Bass
 
 !fD @1 V110 E255,90,40,20 Y5,130,80,100 ; SubMel.A
 !fE @4 V100 E240,80,40,20 Y5,130,80,100 ; SubMel.B
@@ -27,12 +27,12 @@ A T150
 
 !D (20 ; Delay part
 
-A l8 o4 D0 !fA
-B l8 o4 D4 !fA !D
+A l8 o4 D-8 !fA
+B l8 o4 D8 !fA !D
 C l8 o2 D0 !fC
-D l8 o4 D-4 !fD
-E l8 o4 D8 !fF
-;F l8 o4 D-8 !fF
+D l8 o4 D-20 !fD
+E l8 o4 D20 !fF
+;F l8 o4 D-20 !fF
 F =1 l16
 
 B r8.
