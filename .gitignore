@@ -1,3 +1,5 @@
 *.mid
 *.pmd
-
+*.pmml~
+.*.un~
+.DS_Store
