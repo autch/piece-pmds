@@ -16,8 +16,8 @@
 
 A T150
 
-!fA @1 V120 E255,90,40,20 Y5,130,80,100 ; Mel.A
-!fB @1 V120 E240,90,40,20 Y5,130,80,100 ; Mel.B
+!fA @1 V127 E255,90,40,20 Y5,130,80,100 ; Mel.A
+!fB @1 V127 E240,90,40,20 Y5,130,80,100 ; Mel.B
 !fC @4 V120 E255,140,40,200 ; Bass
 
 !fD @1 V110 E255,90,40,20 Y5,130,80,100 ; SubMel.A
@@ -25,30 +25,27 @@ A T150
 !fF @1 V100 E255,80,40,20 Y5,130,80,100 ; Pad A
 !fG @4 V100 E240,80,40,20 Y5,130,80,100 ; Pad B
 
-!D (20 ; Delay part
+!Q (20
+!L )20
 
 A l8 o4 D0 !fA
-;B l8 o4 D4 !fA !D
 C l8 o2 D0 !fC
 D l8 o4 D-4 !fD
 E l8 o4 D8 !fF
 F l8 o4 D-8 !fF
 B =1 l16
 
-;B r8.
 A L !fA
-;B !D
-A [ <b>f+bf+2.ede4.r4 <b>f+bf+2.edc2.&c8r4
-A   r4c4d4e4  f+4 : e4df+4f+1&f+8 r4 r4 ]2
+A [ <b>f+bf+2.ede4.&!Q e4 !L <b>f+bf+2.edc2.&c8& !Q c4&
+A   c4 !L c4d4e4  f+4 : e4df+4f+1&f+8& !Q f+4&f+4  !L ]2
 A g4a8f+4e8& e2f+2g2a2
 A !fB
-;B !D
 A b2b%16>c%16<b%16  b2b%16>c%16<b%16
-A b4.a4.b8a8& a2.r4 b4.a4.>e4<  b2a2
+A b4.a4.b8a8& a2.&!Q a4 !L b4.a4.>e4<  b2a2
 A f+2g2  a2b2
 A b2b%16>c%16<b%16  b2b%16>c%16<b%16
-A b4.a4.b8a8& a2.r4
-A r4a4b4>c8d4.d4e4f+8g4.g4a8>c4<b4.r4 d8<b8d8e8&e1 r4r4
+A b4.a4.b8a8& a2.&!Q a4&
+A a4 !L a4b4>c8d4.d4e4f+8g4.g4a8>c4<b4.& !Q b4 !L d8<b8d8e8&e1& !Q e4&e4 !L
 
 C r2 !fC L
 C q0
@@ -84,3 +81,4 @@ B [!bg8!hg!hg!Sg8!hg!hg!bg!hg!bg!hg : !Sg8!hg!hg]8 !Sg!Sg!Sg!Sg
 B [!bg8!hg!hg!Sg8!hg!hg!bg!hg!bg!hg : !Sg8!hg!hg]8 !tg!tg!ug!vg
 B [ [!bg8!og8!Sg8!og8]2 ]15  !Sg4 r2 !tg!ug!vg8
 B [!bg8!hg!hg!Sg8!hg!hg!bg!hg!bg!hg : !Sg8!hg!hg]2 !Sg!Sg!Sg!Sg
+
