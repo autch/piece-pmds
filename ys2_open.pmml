@@ -22,8 +22,8 @@
 !fAF @4
 !fAG @0 E255,140,40,220 V80 _12
 
-!fB  @0 V100
-!fBX @1 V90
+!fB  @0 V100 q2
+!fBX @1 V100 q4
 
 !sA @0 E255,140,110,0 V80 Y8,140,80,90
 !sB @0 E240,10,110,80 V60
@@ -38,7 +38,7 @@ F l16 o5 !sA D-8
 ABDEF r4
 
 A L !fAA
-A d+ega8<aaa>c+<a>d<a>e<a>d<a>>l32 !fAB aa+aa+aa+aa+ > aa+aa+aa+aa+ < l16
+A d+ega8<aaa>c+<a>d<a>e<a>d<a>>l32 !fAB (5 aa+aa+aa+aa+ > aa+aa+aa+aa+ )5 < l16
 A aa+>c+<a+aa+>c+d !fAA
 A <c+<aa+gafgea+gafgefdc+defgaa+>c+ec+<a+>fc+<a+
 A <efg4.aa+>c+4. efgfefgaa+>c+
