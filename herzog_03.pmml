@@ -18,21 +18,21 @@ A T215
 !vA Y6,140,90,120
 !vB Y8,140,80,120
 
-!eA E255,40,80,80
+!eA E255,140,120,40
 !eB E255,60,80,20
 !eC E240,48,100,100
 
 !fA @1 q0 !vA !eA
-!fB @4 q2 !vA !eB
+!fB @1 q2 !vA !eB
 !fC @1 q1 !vA !eB
 !fD @0 q0 !vB !eC
 
 A =1 V120
 B !fC V100 D8
 C !fB V120 D-8
-D !fA V110 D16
+D !fA V120 D16
 E !fD V90  D0
-F !fA V90 D-16
+F !fA V100 D-16
 
 A l16 !xg ggg l8 gggggg     !bg  g  !sg4   !bg  g !sg4   ; A
 A l16 !xg ggg l8 gggggg l16 !bg rgg !sg8g8 !bg rgg!sg8g8 ; B
