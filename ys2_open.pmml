@@ -14,22 +14,24 @@
 !!Ag @7 ?o5c ; Snare w/o volume
 !!Bg @7 ?o4c
 
-!fAA @1 E255,0,127,0 q1 V110 _0
-!fAB @1 q0
-!fAC @3 E255,40,110,0 V100 _12
+!fAA @1 E255,0,0,0 q1 V120 _0
+!fAB @1 E255,140,80,0 q0 _0
+!fAC @3 E255,40,110,0 V110 _12
 !fAD @1 E255,40,100,80 V110 _0
 !fAE @1 V110 _12
 !fAF @4
 !fAG @0 E255,140,40,220 V80 _12
 
-!fB  @0 V100 q2
-!fBX @1 V100 q4
+!fB  @4 V110 q4 E255,0,0,0
+!fBX @1 V120 q2 E255,120,80,0
 
 !sA @0 E255,140,110,0 V80 Y8,140,80,90
 !sB @0 E240,10,110,80 V60
 
-A @1 l16 q1 V110 o3 !fAA Y8,140,80,90
-B @0 l16 q2 V100 o2 !fB Y8,140,80,90
+A t118
+
+A @1 l16 q1 V110 o3 !fAA Y8,135,85,120
+B @0 l16 q2 V110 o2 !fB Y8,140,80,90
 C =1 l16 q0 V100 ; Rhythm
 D l16 o5 !sA D8
 E l16 o5 !sA 
@@ -38,7 +40,7 @@ F l16 o5 !sA D-8
 ABDEF r4
 
 A L !fAA
-A d+ega8<aaa>c+<a>d<a>e<a>d<a>>l32 !fAB (5 aa+aa+aa+aa+ > aa+aa+aa+aa+ )5 < l16
+A d+ega8<aaa>c+<a>d<a>e<a>d<a>>l32 !fAB aa+aa+aa+aa+ > aa+aa+aa+aa+ < l16
 A aa+>c+<a+aa+>c+d !fAA
 A <c+<aa+gafgea+gafgefdc+defgaa+>c+ec+<a+>fc+<a+
 A <efg4.aa+>c+4. efgfefgaa+>c+
