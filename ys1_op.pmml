@@ -28,9 +28,9 @@ F @0 V90 l4 q2 E255,120,100,100 D-8
 
 
 A o4l4 bag+f+ ag+f+e bag+f+ ag+f+e l2 ed+c+d+ ed+c+d+
-A L  E220,80,80,100
-A @4 o3 V90  [ r4 d16d8d16&d2 ]4
-A [ r4 c16c8c16&c2 ]2 [ r4 d16d8d16&d2 ]2 [ r4 c16c8c16&c2 ]2
+A L
+A @4 o3 V90 E255,100,50,100 [ r4 d16d8d16&d2 ]4
+A [ r4 c16c8c16&c2 ]2 [ r4 d16d8d16&d2 ]2 [ r4 c16c8c16&c2 ]2 E255,80,50,100
 A f+1 (5 f+1 (5 f+1 (5 f+1
 ; b23
 A @1 o6 V100 E220,40,80,100 e16d16e4. <a8b8>c8d8 e16d16e4. <a8b8>c8e8
@@ -42,8 +42,8 @@ A d16c16d4. g8a8b8>c8 d4<b4g4d4&d1
 
 B o4 l1 e1 e1 e1 e1
 B f+1&f+1&f+1&f+1
-B L @4 V90  E220,80,80,100
-B o3 [ r4 g16g8g16&g2 ]10
+B L @4 V90  E255,100,50,100
+B o3 [ r4 g16g8g16&g2 ]10 E255,80,50,100
 B o2 b1 (5 b1 (5 b1 (5 b1
 ; b23
 B @1 o6 V90 E220,40,80,100 e16d16e4. <a8b8>c8d8 e16d16e4. <a8b8>c8e8
@@ -55,7 +55,7 @@ B d16c16d4. g8a8b8>c8 d4<b4g4d4&d1
 
 
 C o4 l1 c+1 c1 c+1 c1 <b1&b1&b1&b1
-C L V100 o2 l1 E255,40,80,100
+C L V100 o2 l1 E255,60,100,100
 C e1 e1 e1 e1 f1 f1 e1 e1 f1 f1 )10 e1 (5 e1 (5 e1 (5 e1 
 C V100 f1 f1 e1 e1 f1 f1 e1 E255,60,80,100 e1&e1
 
