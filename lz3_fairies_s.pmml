@@ -1,10 +1,10 @@
 #Title 「ゼルダの伝説　神々のトライフォース」より「妖精の泉」
 #Title2 (c) Nintendo, arr: Autch
 
-A T150
+A T140
 
-!eA E255,130,0,0
-!eB E255,120,40,0
+!eA E255,130,0,0 q0
+!eB E255,120,40,0 q0
 
 A @0 !eA V120 D0
 B @0 !eA V115 D4
@@ -25,7 +25,7 @@ B o3 f  g+ b >d+ f  g+8&g+16&g+32
 C o3 g+ b >d+ f  g+ b8&g+16
 D o3 b >d+ f  g+ b >d+8&g+32
 E o4 d+ f  g+ b >d+ f8
-F    r T153 r T156 r T159 r T162 r T165 r T168
+F    r T152 r T164 r T172 r T178 r T180 r
 
 A T170
 
