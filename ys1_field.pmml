@@ -21,7 +21,7 @@ A T135
 
 A @1 o3 V110 l4 D-8  !f ; FM
 B @1 o3 V100 l4 D8 !f ; FM
-C @1 o2 V110 l16 D0 !b ; FM
+C @4 o2 V110 l16 D0 !b ; FM
 D @0 o4 V110 l4 D-4  !s q2 ; SSG
 E @0 o4 V90  l4 D4 !s q2 ; SSG
 ; F @0 o3 V100 l4     ; SSG

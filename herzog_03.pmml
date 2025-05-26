@@ -23,7 +23,7 @@ A T215
 !eC E240,48,100,100
 
 !fA @1 q0 !vA !eA
-!fB @1 q2 !vA !eB
+!fB @4 q2 !vA !eB
 !fC @1 q1 !vA !eB
 !fD @0 q0 !vB !eC
 
